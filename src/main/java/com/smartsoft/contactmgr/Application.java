@@ -24,8 +24,8 @@ public class Application {
 
     public static void main(String[] args) {
         Contact contact = new Contact.ContactBuilder("Mike", "K")
-                .withEmail("crescens.kob@qq.com")
-                .withPhone(18240475607L)
+                .withEmail("carlos.k@gmail.com")
+                .withPhone(19240470607L)
                 .build();
         int id = save(contact);
 
@@ -40,7 +40,7 @@ public class Application {
         //Get the persisted contact
         Contact contact1 = findContactById(id);
         //update the contact
-//        contact1.setFirstName("Fidele");
+//        contact1.setFirstName("Carlos");
         contact1.getFirstName().equals("Carl");
         //persist the changes
         System.out.println("\n\nnUpdating\n\n");
