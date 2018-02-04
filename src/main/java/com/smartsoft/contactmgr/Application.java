@@ -23,7 +23,7 @@ public class Application {
     }
 
     public static void main(String[] args) {
-        Contact contact = new Contact.ContactBuilder("Crescens", "Mayela")
+        Contact contact = new Contact.ContactBuilder("Mike", "K")
                 .withEmail("crescens.kob@qq.com")
                 .withPhone(18240475607L)
                 .build();
@@ -41,7 +41,7 @@ public class Application {
         Contact contact1 = findContactById(id);
         //update the contact
 //        contact1.setFirstName("Fidele");
-        contact1.getFirstName().equals("Fidele");
+        contact1.getFirstName().equals("Carl");
         //persist the changes
         System.out.println("\n\nnUpdating\n\n");
 //        update(contact1);
